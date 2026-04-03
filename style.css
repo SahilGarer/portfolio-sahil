@@ -225,7 +225,9 @@ body {
     color: var(--TEXT-SEC);
     transition: color 0.2s;
 }
-
+.search-submit img{
+    filter:invert(100);
+}
 .search-submit:hover {
     color: var(--ACCENT);
 }
