@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sahil Garer -frontend developer">
+    <title>Portfolio By Sahil</title>
+    <link rel="stylesheet" href="sahil.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="hemburger"><button id="hemburgerbtn"><span></span><span></span><span></span></button>
+                <ul class="menu">
+                    <li><a href="#" class="homebtn">Home</a></li>
+                    <li><a href="#project" >Projects</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact-me">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#">More</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#Resume">Resume</a>
+                            </li>
+                            <li><a href="#Achievements">Achievements</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="profile-name">SAHIL <span>GARER</span></h1>
+        <div class="searchbox">
+            <input type="search" class="search" placeholder="Enter text to search" title="search" id="search"
+                name="search">
+            <button class="search-submit"><img src="Images/magnifier.png" alt="search-icon" height="32"
+                    width="32"></button>
+        </div>
+    </header>
+    <main class="card">
+        <section class="hero" id="Home">
+            <h1 class="hero-heading">Hi, I'm SAHIL GARER</h1>
+            <p class="hero-paragraph">A passionate student and aspiring web developer focused on building clean,
+                user-friendly, and impactful digital experiences.</p>
+            <p class="hero-paragraph">Currently learning, growing, and turning ideas into real-world projects.</p>
+
+            <ul class="hero-buttons">
+                <li><a href="#project">View Projects</a></li>
+                <li><a href="#">Download Resume</a></li>
+                <li><a href="contact.html" id="contactbtn">Contact me</a></li>
+            </ul>
+        </section>
+
+
+        <section class="project" id="project">
+
+            <div class="proj-header">
+                <h1>Projects</h1>
+                <p class="proj-sub">A collection of front-end builds — components, cards, and interfaces crafted with
+                    HTML, CSS &amp; JavaScript.</p>
+            </div>
+
+            <div class="proj-grid">
+
+                <div class="proj-card">
+                    <span class="proj-num">01 —</span>
+                    <h2>Product Preview Card</h2>
+                    <hr>
+                    <p>Elegant e-commerce product card for Gabrielle Essence Parfum. Responsive layout with smart image
+                        separation, refined typography, and a compelling call-to-action.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                    <a href="https://product-preview-card-vercel.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">02 —</span>
+                    <h2>FAQ Accordion</h2>
+                    <hr>
+                    <p>Interactive FAQ interface with expandable and collapsible sections. Smooth toggling behaviour
+                        built with vanilla JavaScript.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://faqs-by-sahil-garer.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">03 —</span>
+                    <h2>Interactive Rating Card</h2>
+                    <hr>
+                    <p>Responsive rating component with dynamic state changes. Users select and submit ratings with
+                        real-time UI feedback.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://rating-card-by-sahil.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">04 —</span>
+                    <h2>Stats Preview Card</h2>
+                    <hr>
+                    <p>Modern statistics card with responsive layout. Focused on strong typography hierarchy, spacing,
+                        and clean visual data presentation.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>Layout</span></div>
+                    <a href="https://stats-preview-card-vercel.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">05 —</span>
+                    <h2>Link Card Profile</h2>
+                    <hr>
+                    <p>Social profile and link card inspired by modern portfolio layouts. Clean HTML & CSS with a
+                        visually appealing design.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div>
+                    <a href="https://linkcardsahilnew1.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">06 —</span>
+                    <h2>Blog Preview Card</h2>
+                    <hr>
+                    <p>Blog preview component with responsive design and hover effects. Demonstrates clean UI layout and
+                        modern CSS styling.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>Hover FX</span></div>
+                    <a href="https://blog-card-vercel.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+                <div class="proj-card">
+                    <span class="proj-num">07 —</span>
+                    <h2>Results Summary Card</h2>
+                    <hr>
+                    <p>Dashboard-style results card with organized data sections. Uses CSS and JavaScript for improved
+                        layout and interactivity.</p>
+                    <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://result-summary-card-vercel.vercel.app/" target="_blank">View Project ↗</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="Skills" class="skills-section">
+
+            <div class="skills-header">
+                <span class="proj-eyebrow">// toolkit</span>
+                <h1>Skills &amp; <span>Technologies</span></h1>
+                <p class="proj-sub">The tools, languages, and practices I use to build fast, clean, and responsive web
+                    experiences.</p>
+            </div>
+
+            <!-- Languages & Core -->
+            <div class="skill-group">
+                <h2 class="skill-group-label">Languages &amp; Core</h2>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1D9E75" stroke-width="1.5" />
+                                <path d="M8 17l4-8 4 8M9.5 14h5" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-tag">Markup</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1D9E75" stroke-width="1.5" />
+                                <path d="M7 8h10M7 12h7M7 16h4" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-tag">Styling</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1D9E75" stroke-width="1.5" />
+                                <path d="M8 15l2-2-2-2M13 15h3" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-tag">Language</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Workflow -->
+            <div class="skill-group">
+                <h2 class="skill-group-label">Tools &amp; Workflow</h2>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="9" stroke="#1D9E75" stroke-width="1.5" />
+                                <path d="M12 3C12 3 8 7 8 12s4 9 4 9M12 3c0 0 4 4 4 9s-4 9-4 9M3 12h18" stroke="#1D9E75"
+                                    stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">GitHub</span>
+                        <span class="skill-tag">Version Control</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="9" stroke="#1D9E75" stroke-width="1.5" />
+                                <path d="M9 9h.01M15 9h.01M9 15s1 1.5 3 1.5 3-1.5 3-1.5" stroke="#1D9E75"
+                                    stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">Chrome DevTools</span>
+                        <span class="skill-tag">Debugging</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">Vercel</span>
+                        <span class="skill-tag">Deployment</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Practices -->
+            <div class="skill-group">
+                <h2 class="skill-group-label">Practices</h2>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <rect x="2" y="3" width="9" height="18" rx="1.5" stroke="#1D9E75" stroke-width="1.5" />
+                                <rect x="13" y="8" width="9" height="13" rx="1.5" stroke="#1D9E75" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">Responsive Design</span>
+                        <span class="skill-tag">Best Practice</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 9l-4 3 4 3M15 9l4 3-4 3" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <line x1="12" y1="6" x2="12" y2="18" stroke="#1D9E75" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">Basic Debugging</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="3" stroke="#1D9E75" stroke-width="1.5" />
+                                <path
+                                    d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"
+                                    stroke="#1D9E75" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="skill-name">Problem Solving</span>
+                        <span class="skill-tag">Core Skill</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="education" class="education">
+            <div class="education-header">
+                <h1>Education</h1>
+                <p class="edu-sub">The courses, concepts, and experiences that shaped my foundation</p>
+            </div>
+            <div class="edu-grid">
+
+                <div class="edu-card">
+                    <h2>Post Graduation</h2>
+                    <hr>
+                    <p>S.S. JAIN SUBODH P.G. COLLEGE</p>
+                    <h3>M.Sc. IT</h3>
+                    <hr>
+                    <p>2025-present</p>
+                </div>
+                <div class="edu-card">
+                    <h2>Graduation</h2>
+                    <hr>
+                    <p>VINAYAK INTERNATIONAL COLLEGE</p>
+                    <h3>B.Sc. (Zoology, Botany & Chemistry)</h3>
+                    <hr>
+                    <p>2022-2025</p>
+                </div>
+                <div class="edu-card">
+                    <h2>HIGHER SECONDARY EDUCATION</h2>
+                    <hr>
+                    <p>TARGET SENIOR SECONDARY SCHOOL</p>
+                    <h3>Science Bio</h3>
+                    <hr>
+                    <p>2020-2021</p>
+                </div>
+                </div>
+        </section>
+        <section id="Contact-me" class="contactme">
+            <h1>Contact me</h1>
+            <p>Feel free to reach out for collaboration, opportunities, or just a friendly conversation.</p>
+            <ul class="contact-link">
+                <li><a href="https://github.com/Vicioussahil" class="Github">GitHub</a></li>
+                </li>
+                <li><a href="https://www.linkedin.com/in/sahil-garer-314ab334a/">LinkedIn</a>
+                </li>
+                <li><a href="mailto:sahilgarer@gmail.com">Gmail</a></li>
+            </ul>
+        </section>
+
+
+
+
+    </main>
+    <footer class="footer"><button class="btnaboutme" id="btnaboutme">About me</button>
+        <div class="paragraph-footer">
+            <p>I am a dedicated and curious student with a strong interest in web development and technology. I enjoy
+                building projects that solve real-world problems and help me grow as a developer.
+            </p>
+            <p>
+                I have been actively learning and working with modern web technologies, focusing on creating responsive
+                and user-friendly applications. I am always eager to learn new skills, explore new tools, and improve my
+                problem-solving abilities.
+            </p>
+            <p>
+                My goal is to continuously grow as a developer and contribute to meaningful and impactful projects in
+                the future.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
